@@ -1,1 +1,8 @@
-1. Streamlit
+streamlit==1.34.0
+passlib==1.7.4
+pymupdf==1.24.2
+python-docx==1.1.2
+spacy==3.7.4
+sentence-transformers==2.7.0
+requests==2.32.3
+
