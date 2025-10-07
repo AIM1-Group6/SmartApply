@@ -1,6 +1,0 @@
-streamlit
-python-dotenv
-requests
-numpy
-openai>=1.37.0
-tiktoken
