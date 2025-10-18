@@ -200,7 +200,7 @@ elif page == "Parsed Resume Text":
     st.subheader("Final Resume Text Used for Job Search")
     st.code(full_text, language="text")
 
-# --------------Find Jobs--------------
+# --------------Find Jobs----------Adjusted by Adel ----
 elif page == "Find Jobs":
     user = require_auth()
     st.subheader("Search Jobs (Adzuna)")
@@ -258,7 +258,7 @@ elif page == "Find Jobs":
             st.info(f"Selected Jobs ({len(st.session_state.selected_jobs)}/5): " +
                     ", ".join([jobs[idx].get('title','(no title)') for idx in st.session_state.selected_jobs]))
 
-# ---------------- Selected Jobs Page ----------------
+# ---------------- Selected Jobs Page -----Added by Adel-----------
 elif page == "Selected Jobs":
     user = require_auth()
     st.subheader("Selected Jobs (Up to 5)")
